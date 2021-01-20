@@ -3,6 +3,9 @@ a {
 }
 header {
   background-color: black;
+  display: none;
+  width: 100%;
+  height: 25px;
 }
 body {
   margin: 0px;
@@ -10,9 +13,11 @@ body {
 .white {
   color: white;
 }
+.headerRight {
+  float: right;
+}
 header a {
-  display: none;
-  color: white;
+  color: rgb(141, 141, 132);
   font-family: "ARS Maquette", "Helvica Neue", Arial, sans-serif;
   font-size: 13px;
 }
@@ -42,8 +47,10 @@ main {
   height: 48px;
 }
 .headCont {
-  height: 200px;
+  min-height: 200px;
+  display: flex;
   margin: 10px;
+  flex-direction: column-reverse;
 }
 .hiddenLogo {
   height: 50%;
@@ -268,4 +275,46 @@ nav {
 .legalI{
   margin: auto;
   width: 60%;
+}
+@media only screen and (min-width: 700px) {
+  header{
+    display: inline-block;
+  }
+  header a {
+    display: inline-block;
+  }
+  .headers {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "a b"
+    "a c";
+  }
+  .header1Cont {
+    grid-row: span 2;
+  }
+  .latestFlex {
+    justify-content:space-evenly;
+  }
+  .disp3 {
+    width: 30%;
+    flex-wrap: wrap;
+  }
+  .latfundCont {
+    justify-content: space-around;
+  }
+  .w-h100Larg {
+    width: 100% !important;
+    height: 100px !important;
+  }
+  .hideTablet{
+    display: none;
+  }
+  .categoriesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .category{
+    width: 45%;
+  }
 }
