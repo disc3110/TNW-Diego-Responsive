@@ -77,13 +77,13 @@ nav {
   justify-content: space-between;
 }
 .header1Cont {
-  background-image: url("images/header1.png");
+  background-image: url("Images/header1.png");
 }
 .header2Cont {
-  background-image: url("images/header2.jpg");
+  background-image: url("Images/header2.jpg");
 }
 .header3Cont {
-  background-image: url("images/header3.jpg");
+  background-image: url("Images/header3.jpg");
 }
 .orangeTitle {
   color: #f42;
@@ -198,7 +198,7 @@ nav {
   font-size: 11px;
 }
 .cat1 {
-  background-image: url("images/cat1.png");
+  background-image: url("Images/cat1.png");
 }
 .catCont {
   background-size: cover;
