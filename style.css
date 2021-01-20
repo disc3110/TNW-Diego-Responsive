@@ -1,0 +1,271 @@
+a {
+  text-decoration: none;
+}
+header {
+  background-color: black;
+}
+body {
+  margin: 0px;
+}
+.white {
+  color: white;
+}
+header a {
+  display: none;
+  color: white;
+  font-family: "ARS Maquette", "Helvica Neue", Arial, sans-serif;
+  font-size: 13px;
+}
+.divLinks {
+  display: none;
+}
+.divIcon {
+  float: right;
+}
+.divIcon a {
+  height: 48px;
+}
+main {
+  clear: both;
+}
+.TNWWhiteLogo {
+  background-color: black;
+  width: 100px;
+  padding: 10px;
+}
+.fa-bars {
+  color: black;
+  height: 48px;
+}
+.fa-search {
+  color: black;
+  height: 48px;
+}
+.headCont {
+  height: 200px;
+  margin: 10px;
+}
+.hiddenLogo {
+  height: 50%;
+}
+.articleHeader {
+  margin: 0px 4px 0px 4px;
+  position: relative;
+}
+nav {
+  height: 48px;
+}
+.header1Cont {
+  background-image: url("images/header1.png");
+}
+.header2Cont {
+  background-image: url("images/header2.jpg");
+}
+.header3Cont {
+  background-image: url("images/header3.jpg");
+}
+.orangeTitle {
+  color: #f42;
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+}
+.orangeText {
+  color: #f42;
+}
+.latestFlex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 5px 0px 10px;
+}
+.latest {
+  display: flex;
+  width: 100%;
+  margin: 5px 0px;
+}
+.latest img {
+  height: 75px;
+  width: 75px;
+}
+.credits {
+  color: rgba(141, 141, 141, 0.83);
+  font-family: "ARS Maquette", "Helvica Neue", Arial, sans-serif;
+  font-size: 12px;
+}
+.latestTitle {
+  font-family: "ARS Maquette", "Helvica Neue", Arial, sans-serif;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin: 0px;
+}
+.latestText {
+  margin: 0 5px;
+}
+.funlog {
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 5px;
+}
+.latfundCont {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 15px;
+}
+.lafund {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+}
+.lafundHead {
+  width: 100%;
+}
+.sect {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.red {
+  background-color: rgb(255, 68, 34);
+}
+.pink {
+  background-color: rgba(255, 68, 34, 0.25);
+}
+.lightpink {
+  background-color: rgba(255, 68, 34, 0.08);
+}
+.leftmargin {
+  margin-left: 70px;
+}
+.lafunHeadT {
+  margin: 0px;
+  padding: 10px 0px 10px 10px;
+  color: white;
+}
+.sixteen {
+  width: 16px;
+  height: 16px;
+}
+.width100 {
+  width: 100%;
+}
+.flexContainer {
+  padding: 10px;
+}
+.lafund2 {
+  border-bottom: 2px solid rgba(255, 68, 34, 0.25);
+}
+.flexContainer span {
+  margin-left: 10px;
+}
+.maText {
+  color: rgb(85, 85, 85);
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  margin: 12px 0;
+}
+.lafund3 span {
+  margin: 12px 3px;
+}
+.leftmargin h5 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.leftmargin span {
+  color: black;
+  font-size: 11px;
+}
+.cat1 {
+  background-image: url("images/cat1.png");
+}
+.catCont {
+  background-size: cover;
+  height: 405px;
+}
+.catFreeArea {
+  height: 80%;
+}
+.noDecoration {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0px;
+}
+.artTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+.artCategory {
+  font-family: Shentox, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+.catListArt {
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  padding: 5px;
+}
+.orangeBullets{
+  list-style: none;
+  margin-left: 0px;
+  padding-inline-start: 4px;
+}
+.orangeBullets li::before {
+  content: "\2022";
+  color: rgb(255, 68, 34);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 0px;
+}
+.category {
+  margin: 10px;
+}
+.socialMedia {
+  background-color: #131313;
+  padding: 2.5em 0;
+}
+.socialLogos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px auto;
+  max-width: 1192px;
+  padding: 0px 20px;
+  width: 60%;
+}
+.socialLogo {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(49, 48, 48);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+.socialFo {
+  color: white;
+  display: block;
+}
+.whiteText {
+  color: #aaa;
+}
+.AboutSec {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 60%;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 10px;
+}
+.About {
+  font-size: 13px;
+}
+.copyright {
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+}
+.legalI{
+  margin: auto;
+  width: 60%;
+}
