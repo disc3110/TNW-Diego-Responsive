@@ -62,9 +62,9 @@ main {
   flex-direction: column-reverse;
 }
 .hiddenLogo {
-width: 50%;
-margin: 15px;
-display: none;
+  width: 50%;
+  margin: 15px;
+  display: none;
 }
 .articleHeader {
   margin: auto 4px 0px 4px;
@@ -228,7 +228,7 @@ nav {
   font-size: 14px;
   padding: 5px;
 }
-.orangeBullets{
+.orangeBullets {
   list-style: none;
   margin-left: 0px;
   padding-inline-start: 4px;
@@ -289,15 +289,15 @@ nav {
   width: 100%;
   padding: 10px;
 }
-.legalI{
+.legalI {
   margin: auto;
   width: 60%;
 }
 @media only screen and (min-width: 700px) {
-  .justMobile{
+  .justMobile {
     display: none;
   }
-  header{
+  header {
     display: inline-block;
   }
   header a {
@@ -306,14 +306,15 @@ nav {
   .headers {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-areas: "a b"
-    "a c";
+    grid-template-areas:
+      "a b"
+      "a c";
   }
   .header1Cont {
     grid-row: span 2;
   }
   .latestFlex {
-    justify-content:space-evenly;
+    justify-content: space-evenly;
   }
   .disp3 {
     width: 30%;
@@ -326,18 +327,18 @@ nav {
     width: 100% !important;
     height: 100px !important;
   }
-  .hideTablet{
+  .hideTablet {
     display: none;
   }
-  .categoriesContainer{
+  .categoriesContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .category{
+  .category {
     width: 45%;
   }
-  .divLinks{
+  .divLinks {
     display: flex;
   }
 }
@@ -346,17 +347,17 @@ nav {
     width: 22%;
     margin: 10px;
   }
-  .DeskCent{
+  .DeskCent {
     width: 85%;
     margin: auto;
   }
-  .hideTablet{
+  .hideTablet {
     display: block;
   }
-  .category{
+  .category {
     width: 30%;
   }
-  .hiddenLogo{
+  .hiddenLogo {
     display: block;
   }
 }
