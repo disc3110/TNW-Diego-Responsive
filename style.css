@@ -23,9 +23,18 @@ header a {
 }
 .divLinks {
   display: none;
+  flex-grow: 4;
+}
+.divLinks a {
+  color: rgb(170, 170, 170);
+  font-family: Shentox, sans-serif;
+  font-size: 14px;
+  padding: 18px 12px 0px 15px;
 }
 .divIcon {
-  float: right;
+  position: relative;
+  top: 17px;
+  right: 15px;
 }
 .divIcon a {
   height: 48px;
@@ -53,14 +62,19 @@ main {
   flex-direction: column-reverse;
 }
 .hiddenLogo {
-  height: 50%;
+width: 50%;
+margin: 15px;
+display: none;
 }
 .articleHeader {
-  margin: 0px 4px 0px 4px;
+  margin: auto 4px 0px 4px;
   position: relative;
 }
 nav {
   height: 48px;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .header1Cont {
   background-image: url("images/header1.png");
@@ -188,7 +202,9 @@ nav {
 }
 .catCont {
   background-size: cover;
-  height: 405px;
+  min-height: 405px;
+  background-position: center;
+  display: flex;
 }
 .catFreeArea {
   height: 80%;
@@ -236,7 +252,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   margin: 0px auto;
-  max-width: 1192px;
+  max-width: 427px;
   padding: 0px 20px;
   width: 60%;
 }
@@ -263,6 +279,7 @@ nav {
   justify-content: space-between;
   margin: 10px auto;
   padding: 10px;
+  max-width: 450px;
 }
 .About {
   font-size: 13px;
@@ -277,6 +294,9 @@ nav {
   width: 60%;
 }
 @media only screen and (min-width: 700px) {
+  .justMobile{
+    display: none;
+  }
   header{
     display: inline-block;
   }
@@ -316,5 +336,27 @@ nav {
   }
   .category{
     width: 45%;
+  }
+  .divLinks{
+    display: flex;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .disp3 {
+    width: 22%;
+    margin: 10px;
+  }
+  .DeskCent{
+    width: 85%;
+    margin: auto;
+  }
+  .hideTablet{
+    display: block;
+  }
+  .category{
+    width: 30%;
+  }
+  .hiddenLogo{
+    display: block;
   }
 }
