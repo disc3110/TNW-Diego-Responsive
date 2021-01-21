@@ -7,9 +7,23 @@ header {
   width: 100%;
   height: 25px;
 }
+header a {
+  padding-right: 4px;
+}
+main {
+  padding-top: 48px;
+}
 body {
   margin: 0px;
   overflow-x: hidden;
+}
+.posFixTop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 6;
+  background-color: white;
 }
 .white {
   color: white;
@@ -43,6 +57,19 @@ header a {
 main {
   clear: both;
 }
+.artShadow {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25) url(Images/Blackgradient.png);
+}
+.orangeShadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 4;
+}
 .TNWWhiteLogo {
   background-color: black;
   width: 100px;
@@ -58,8 +85,10 @@ main {
 }
 .headCont {
   min-height: 200px;
-  display: flex;
   margin: 10px;
+  position: relative;
+}
+.columreverse {
   flex-direction: column-reverse;
 }
 .hiddenLogo {
@@ -94,13 +123,14 @@ nav {
 .orangeText {
   color: #f42;
 }
-.latestFlex {
+.flex {
   display: flex;
+}
+.latestFlex {
   flex-wrap: wrap;
   margin: 0px 5px 0px 10px;
 }
 .latest {
-  display: flex;
   width: 100%;
   margin: 5px 0px;
 }
@@ -129,12 +159,10 @@ nav {
   margin: 5px;
 }
 .latfundCont {
-  display: flex;
   flex-wrap: wrap;
   margin: 5px 15px;
 }
 .lafund {
-  display: flex;
   flex-wrap: wrap;
   margin: 10px 0px;
 }
@@ -143,7 +171,6 @@ nav {
 }
 .sect {
   width: 100%;
-  display: flex;
   flex-wrap: wrap;
 }
 .red {
@@ -250,7 +277,6 @@ nav {
   padding: 2.5em 0;
 }
 .socialLogos {
-  display: flex;
   justify-content: space-evenly;
   margin: 0px auto;
   max-width: 427px;
@@ -274,13 +300,15 @@ nav {
   color: #aaa;
 }
 .AboutSec {
-  display: flex;
   flex-wrap: nowrap;
   width: 60%;
-  justify-content: space-between;
+  justify-content: center;
   margin: 10px auto;
   padding: 10px;
   max-width: 450px;
+}
+.AboutSec li {
+  margin-left: 10px;
 }
 .About {
   font-size: 13px;
@@ -294,7 +322,19 @@ nav {
   margin: auto;
   width: 60%;
 }
-@media only screen and (min-width: 700px) {
+
+@media only screen and (max-width: 425px) {
+  main {
+    padding-top: 30px;
+  }
+  .socialLogos {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  main {
+    padding-top: 84px;
+  }
   .justMobile {
     display: none;
   }
@@ -314,8 +354,8 @@ nav {
   .header1Cont {
     grid-row: span 2;
   }
-  .latestFlex {
-    justify-content: space-evenly;
+  .latestFlex div {
+    margin: 6px;
   }
   .disp3 {
     width: 30%;
@@ -324,9 +364,9 @@ nav {
   .latfundCont {
     justify-content: space-around;
   }
-  .w-h100Larg {
-    width: 100% !important;
-    height: 100px !important;
+  .latest img {
+    width: 100% ;
+    height: 100px ;
   }
   .hideTablet {
     display: none;
@@ -342,8 +382,21 @@ nav {
   .divLinks {
     display: flex;
   }
+  .TNWWhiteLogo {
+    padding: 0px 10px;
+  }
+  .headerLeft {
+    padding-left: 135px;
+  }
+  .DeskCent {
+    padding-left: 15px;
+  }
+  .seventyfive img {
+    width: 75px;
+    height: 75px;
+  }
 }
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 1024px) {
   .disp3 {
     width: 22%;
     margin: 10px;
@@ -360,5 +413,17 @@ nav {
   }
   .hiddenLogo {
     display: block;
+  }
+  .TNWWhiteLogo {
+    display: none;
+  }
+  .headerLeft {
+    padding-left: 15px;
+  }
+  .orangeShadow {
+    background: transparent url(Images/Orangegradient.png);
+    mix-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
