@@ -399,6 +399,7 @@ nav {
     display: none;
   }
 }
+
 @media only screen and (min-width: 768px) {
   main {
     padding-top: 84px;
@@ -512,7 +513,7 @@ nav {
   .headerLeft {
     padding-left: 15px;
   }
-  
+
   .orangeShadow {
     background: transparent url(Images/Orangegradient.png);
     mix-blend-mode: lighten;
