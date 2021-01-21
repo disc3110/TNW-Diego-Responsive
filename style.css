@@ -1,62 +1,69 @@
 a {
   text-decoration: none;
 }
+
 header {
   background-color: black;
   display: none;
   width: 100%;
   height: 25px;
 }
+
 header a {
   padding-right: 4px;
-}
-main {
-  padding-top: 48px;
-}
-body {
-  margin: 0px;
-  overflow-x: hidden;
-}
-.posFixTop {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  z-index: 6;
-  background-color: white;
-}
-.white {
-  color: white;
-}
-.headerRight {
-  float: right;
-}
-header a {
   color: rgb(141, 141, 132);
   font-family: "ARS Maquette", "Helvica Neue", Arial, sans-serif;
   font-size: 13px;
 }
+
+main {
+  padding-top: 48px;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.posFixTop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  background-color: white;
+}
+
+.white {
+  color: white;
+}
+
+.headerRight {
+  float: right;
+}
+
 .divLinks {
   display: none;
   flex-grow: 4;
 }
+
 .divLinks a {
   color: rgb(170, 170, 170);
   font-family: Shentox, sans-serif;
   font-size: 14px;
-  padding: 18px 12px 0px 15px;
+  padding: 18px 12px 0 15px;
 }
+
 .divIcon {
   position: relative;
   top: 17px;
   right: 15px;
 }
+
 .divIcon a {
   height: 48px;
 }
-main {
-  clear: both;
-}
+
 .artShadow {
   height: 100%;
   width: 100%;
@@ -64,225 +71,278 @@ main {
   position: absolute;
   background: rgba(0, 0, 0, 0.25) url(Images/Blackgradient.png);
 }
+
 .orangeShadow {
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: 4;
 }
+
 .TNWWhiteLogo {
   background-color: black;
   width: 100px;
   padding: 10px;
 }
+
 .fa-bars {
   color: black;
   height: 48px;
 }
+
 .fa-search {
   color: black;
   height: 48px;
 }
+
 .headCont {
   min-height: 200px;
   margin: 10px;
   position: relative;
 }
+
 .columreverse {
   flex-direction: column-reverse;
 }
+
 .hiddenLogo {
   width: 50%;
   margin: 15px;
   display: none;
 }
+
 .articleHeader {
-  margin: auto 4px 0px 4px;
+  margin: auto 4px 0 4px;
   position: relative;
 }
+
 nav {
   height: 48px;
   display: inline-flex;
   width: 100%;
   justify-content: space-between;
 }
+
 .header1Cont {
   background-image: url("Images/header1.png");
 }
+
 .header2Cont {
   background-image: url("Images/header2.jpg");
 }
+
 .header3Cont {
   background-image: url("Images/header3.jpg");
 }
+
 .orangeTitle {
   color: #f42;
   font-family: Avalon, sans-serif;
   font-size: 28px;
 }
+
 .orangeText {
   color: #f42;
 }
+
 .flex {
   display: flex;
 }
+
 .latestFlex {
   flex-wrap: wrap;
-  margin: 0px 5px 0px 10px;
+  margin: 0 5px 0 10px;
 }
+
 .latest {
   width: 100%;
-  margin: 5px 0px;
+  margin: 5px 0;
 }
+
 .latest img {
   height: 75px;
   width: 75px;
 }
+
 .credits {
   color: rgba(141, 141, 141, 0.83);
   font-family: "ARS Maquette", "Helvica Neue", Arial, sans-serif;
   font-size: 12px;
 }
+
 .latestTitle {
   font-family: "ARS Maquette", "Helvica Neue", Arial, sans-serif;
   font-size: 13.5px;
   font-weight: bold;
-  margin: 0px;
+  margin: 0;
 }
+
 .latestText {
   margin: 0 5px;
 }
+
 .funlog {
   height: 60px;
   width: 60px;
   float: left;
   margin: 5px;
 }
+
 .latfundCont {
   flex-wrap: wrap;
   margin: 5px 15px;
 }
+
 .lafund {
   flex-wrap: wrap;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
+
 .lafundHead {
   width: 100%;
 }
+
 .sect {
   width: 100%;
   flex-wrap: wrap;
 }
+
 .red {
   background-color: rgb(255, 68, 34);
 }
+
 .pink {
   background-color: rgba(255, 68, 34, 0.25);
 }
+
 .lightpink {
   background-color: rgba(255, 68, 34, 0.08);
 }
+
 .leftmargin {
   margin-left: 70px;
 }
+
 .lafunHeadT {
-  margin: 0px;
-  padding: 10px 0px 10px 10px;
+  margin: 0;
+  padding: 10px 0 10px 10px;
   color: white;
 }
+
 .sixteen {
   width: 16px;
   height: 16px;
 }
+
 .width100 {
   width: 100%;
 }
+
 .flexContainer {
   padding: 10px;
 }
+
 .lafund2 {
   border-bottom: 2px solid rgba(255, 68, 34, 0.25);
 }
+
 .flexContainer span {
   margin-left: 10px;
 }
+
 .maText {
   color: rgb(85, 85, 85);
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 12px;
   margin: 12px 0;
 }
+
 .lafund3 span {
   margin: 12px 3px;
 }
+
 .leftmargin h5 {
   color: black;
   font-size: 18px;
   font-weight: bold;
-  margin: 5px 0px;
+  margin: 5px 0;
 }
+
 .leftmargin span {
   color: black;
   font-size: 11px;
 }
+
 .cat1 {
   background-image: url("Images/cat1.png");
 }
+
 .catCont {
   background-size: cover;
   min-height: 405px;
   background-position: center;
   display: flex;
 }
+
 .catFreeArea {
   height: 80%;
 }
+
 .noDecoration {
   list-style-type: none;
   margin: 5px;
-  padding: 0px;
+  padding: 0;
 }
+
 .artTitle {
   font-size: 20px;
   font-weight: bold;
 }
+
 .artCategory {
   font-family: Shentox, sans-serif;
   font-size: 13px;
   font-weight: 500;
 }
+
 .catListArt {
   border-bottom: 1px solid #eee;
   font-size: 14px;
   padding: 5px;
 }
+
 .orangeBullets {
   list-style: none;
-  margin-left: 0px;
+  margin-left: 0;
   padding-inline-start: 4px;
 }
+
 .orangeBullets li::before {
   content: "\2022";
   color: rgb(255, 68, 34);
   font-weight: bold;
   display: inline-block;
   width: 1em;
-  margin-left: 0px;
+  margin-left: 0;
 }
+
 .category {
   margin: 10px;
 }
+
 .socialMedia {
   background-color: #131313;
   padding: 2.5em 0;
 }
+
 .socialLogos {
   justify-content: space-evenly;
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 427px;
-  padding: 0px 20px;
+  padding: 0 20px;
   width: 60%;
 }
+
 .socialLogo {
   width: 40px;
   height: 40px;
@@ -292,13 +352,16 @@ nav {
   align-items: center;
   display: inline-flex;
 }
+
 .socialFo {
   color: white;
   display: block;
 }
+
 .whiteText {
   color: #aaa;
 }
+
 .AboutSec {
   flex-wrap: nowrap;
   width: 60%;
@@ -307,17 +370,21 @@ nav {
   padding: 10px;
   max-width: 450px;
 }
+
 .AboutSec li {
   margin-left: 10px;
 }
+
 .About {
   font-size: 13px;
 }
+
 .copyright {
   background-color: black;
   width: 100%;
   padding: 10px;
 }
+
 .legalI {
   margin: auto;
   width: 60%;
@@ -327,6 +394,7 @@ nav {
   main {
     padding-top: 30px;
   }
+
   .socialLogos {
     display: none;
   }
@@ -335,15 +403,19 @@ nav {
   main {
     padding-top: 84px;
   }
+
   .justMobile {
     display: none;
   }
+
   header {
     display: inline-block;
   }
+
   header a {
     display: inline-block;
   }
+
   .headers {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -351,75 +423,96 @@ nav {
       "a b"
       "a c";
   }
+
   .header1Cont {
     grid-row: span 2;
   }
+
   .latestFlex div {
     margin: 6px;
   }
+
   .disp3 {
     width: 30%;
     flex-wrap: wrap;
   }
+
   .latfundCont {
     justify-content: space-around;
   }
+
   .latest img {
-    width: 100% ;
-    height: 100px ;
+    width: 100%;
+    height: 100px;
   }
+
   .hideTablet {
     display: none;
   }
+
   .categoriesContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
   .category {
     width: 45%;
   }
+
   .divLinks {
     display: flex;
   }
+
   .TNWWhiteLogo {
-    padding: 0px 10px;
+    padding: 0 10px;
   }
+
   .headerLeft {
     padding-left: 135px;
   }
+
   .DeskCent {
     padding-left: 15px;
   }
+
   .seventyfive img {
     width: 75px;
     height: 75px;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .disp3 {
     width: 22%;
     margin: 10px;
   }
+
   .DeskCent {
     width: 85%;
     margin: auto;
   }
+
   .hideTablet {
     display: block;
   }
+
   .category {
     width: 30%;
   }
+
   .hiddenLogo {
     display: block;
   }
+
   .TNWWhiteLogo {
     display: none;
   }
+
   .headerLeft {
     padding-left: 15px;
   }
+  
   .orangeShadow {
     background: transparent url(Images/Orangegradient.png);
     mix-blend-mode: lighten;
